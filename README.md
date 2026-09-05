@@ -312,9 +312,7 @@ This helps keep stored timestamps consistent across different systems and time z
 A basic project layout may look like this:
 
 ```text
-project/
 ├── ticketing-v3.py
-├── tickets_gui.json
 ├── README.md
 ├── LICENSE
 └── venv/
@@ -391,30 +389,8 @@ For important data, regular backups are recommended.
 
 ---
 
-## Limitations
 
-The current implementation is intentionally simple.
 
-Some possible future improvements include:
-
-* SQLite database support
-* Automatic backups
-* Ticket filtering
-* Sorting
-* Pagination
-* User authentication
-* Role-based access control
-* Attachments
-* Export to CSV or JSON
-* Import from existing ticket data
-* Ticket history and audit logs
-* Notifications
-* Multi-user support
-* Server/API support
-* Improved validation
-* Packaging as a standalone Windows application
-
----
 
 ## License
 
@@ -423,7 +399,7 @@ This project is distributed under the **project-specific Software License Terms*
 See:
 
 ```text
-LICENSE
+LICENSE.md
 ```
 
 for the complete terms governing use, modification, redistribution, warranty, and limitation of liability.
@@ -720,9 +696,7 @@ Timestampهای مربوط به تیکت‌ها با استفاده از UTC ت�
 ساختار پایه‌ی پروژه می‌تواند به شکل زیر باشد:
 
 ```text
-project/
 ├── ticketing-v3.py
-├── tickets_gui.json
 ├── README.md
 ├── LICENSE
 └── venv/
@@ -799,30 +773,7 @@ tickets_gui.json
 
 ---
 
-## محدودیت‌ها
 
-پیاده‌سازی فعلی عمداً ساده نگه داشته شده است.
-
-برخی قابلیت‌هایی که می‌توان در آینده اضافه کرد:
-
-* پشتیبانی از پایگاه داده‌ی SQLite
-* پشتیبان‌گیری خودکار
-* فیلتر کردن تیکت‌ها
-* مرتب‌سازی
-* صفحه‌بندی (Pagination)
-* احراز هویت کاربران
-* کنترل دسترسی مبتنی بر نقش
-* پیوست‌ها
-* خروجی CSV یا JSON
-* وارد کردن داده‌های تیکت موجود
-* تاریخچه‌ی تیکت و Audit Log
-* اعلان‌ها
-* پشتیبانی از چند کاربر
-* پشتیبانی از Server/API
-* اعتبارسنجی بهتر داده‌ها
-* بسته‌بندی به‌عنوان یک برنامه‌ی مستقل برای Windows
-
----
 
 ## مجوز (License)
 
@@ -831,7 +782,7 @@ tickets_gui.json
 برای مشاهده‌ی شرایط کامل مربوط به استفاده، تغییر، بازتوزیع، ضمانت و محدودیت مسئولیت، فایل زیر را ببینید:
 
 ```text
-LICENSE
+LICENSE.md
 ```
 
 این نرم‌افزار **«AS IS»**، یعنی «به همان شکل موجود»، و بدون هیچ‌گونه ضمانتی ارائه می‌شود؛ تا حداکثر میزان مجاز طبق قوانین قابل اجرا.

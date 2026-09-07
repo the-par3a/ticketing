@@ -17,7 +17,7 @@ ctk.set_default_color_theme("blue")   # Default blue theme تم پیش‌فرض 
 
 
 # ============================================================
-# ابزارهای کمکی
+# help tools ابزارهای کمکی
 # ============================================================
 
 def now_iso() -> str:
@@ -197,6 +197,7 @@ class TicketSystem:
     def get_ticket(self, ticket_id: int) -> Optional[Ticket]:
         """
         تیکت را با شناسه پیدا می‌کند.
+        save ticket with data
         """
         for ticket in self.tickets:
             if ticket.id == ticket_id:
@@ -228,6 +229,7 @@ class TicketSystem:
     ) -> bool:
         """
         اطلاعات یک تیکت را ویرایش می‌کند.
+        edit a ticket data
         """
         ticket = self.get_ticket(ticket_id)
         if not ticket:

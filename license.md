@@ -1,6 +1,6 @@
 # Software License Terms
 
-**Copyright (c) 2026 Parsa Esmaili**
+**Copyright (c) 2026 Parsa **
 
 These Software License Terms ("Terms") govern the use, copying, modification, adaptation, translation, publication, distribution, incorporation, sublicensing, sale, and other lawful use of the Software described below.
 
@@ -554,7 +554,7 @@ Nothing in this section limits any rights that applicable law grants independent
 
 # Copyright Notice
 
-**Copyright (c) 2026 Parsa Esmaili**
+**Copyright (c) 2026 Parsa **
 
 The Software is made available for broad public use under these Terms.
 
